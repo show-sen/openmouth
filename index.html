@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style src="./css.css"></style>
+    </head>
+
+    <body>
+        <div>Teachable Machine Image Model</div>
+        <div id="webcam-container"></div>
+        <div id="label-container"></div>
+        <textarea id="text" cols="20" rows="3" style="font-size:1.8em;" placeholder="結果"></textarea>
+        <button type="button" onclick="dot()">dot</button>
+        <button type="button" onclick="dash()">dash</button>
+        <div id="morse"></div>
+        <div id="BLINK"></div>
+        <div id="doubleBLINK"></div>
+        <div id="test"></div>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+        <script src="./js.js"></script>
+
+    </body>
+
+</html>
